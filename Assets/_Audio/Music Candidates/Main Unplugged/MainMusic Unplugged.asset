@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20461da5228b2b44da0f6a6c30d6a84c, type: 3}
+  m_Name: MainMusic Unplugged
+  m_EditorClassIdentifier: 
+  containerName: Main Scene
+  tracks:
+  - {fileID: 8300000, guid: f457458b48a8e28498cc33c703222dd5, type: 3}
+  - {fileID: 8300000, guid: e7ee9a7f89b92da48974f3d633442c61, type: 3}
+  - {fileID: 8300000, guid: f5e9d52ed7349d8469a22d229c791e92, type: 3}
+  - {fileID: 8300000, guid: f52404dffa451bb4b9a9f71238c75d5e, type: 3}
+  - {fileID: 8300000, guid: b18773207426dfc4e8077ce68fa97f96, type: 3}
+  - {fileID: 8300000, guid: 6f2366ec83d886f4b95496b12f1bc8dc, type: 3}
+  - {fileID: 8300000, guid: b434add3f37fff94087a2c7280c2be1a, type: 3}
+  - {fileID: 8300000, guid: bacb7ee15b60f9d4c94cad0cd071f592, type: 3}
+  trackPath: 0000000004000000030000000100000007000000060000000200000005000000
+  containerVolumeMultiplier: 1
+  defaultFadeOutDuration: 0.25
+  defaultFadeInDuration: 0.25
+  mode: 0
+  setVolumeOnEnter: 1

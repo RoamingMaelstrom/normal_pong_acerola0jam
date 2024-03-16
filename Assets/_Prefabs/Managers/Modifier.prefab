@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6321304524509891769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2559605873509353844}
+  - component: {fileID: 2188951170302094988}
+  m_Layer: 0
+  m_Name: Modifier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2559605873509353844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6321304524509891769}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2188951170302094988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6321304524509891769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78f8b04851fbe240919ee806e19e51e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modifierProbabilityInfo:
+  - {fileID: 0}
+  basePlayerController: {fileID: 0}
+  enemyAI: {fileID: 0}
+  ball: {fileID: 0}
+  ballManager: {fileID: 0}
+  playerPaddle: {fileID: 0}
+  opponentPaddle: {fileID: 0}
+  staticPlayerPaddlePrefab: {fileID: 7972053950865625265, guid: 0a92ab1d07abc4d49b835634f90e912b, type: 3}
+  staticOpponentPaddlePrefab: {fileID: 4778181630086444961, guid: e4b861b52fd120a4995b350a36fba63c, type: 3}
+  playerBarrierBounds:
+    m_Position: {x: -16, y: -12, z: 0}
+    m_Size: {x: 10, y: 24, z: 0}
+  opponentBarrierBounds:
+    m_Position: {x: 6, y: -12, z: 0}
+    m_Size: {x: 10, y: 24, z: 0}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20461da5228b2b44da0f6a6c30d6a84c, type: 3}
+  m_Name: Start Scene
+  m_EditorClassIdentifier: 
+  containerName: Start Scene
+  tracks:
+  - {fileID: 8300000, guid: 0df069f4d6389b449b9615128f96593c, type: 3}
+  - {fileID: 8300000, guid: e1fc407ab090e1a4b83df7d7f39cf0eb, type: 3}
+  - {fileID: 8300000, guid: 48b3c669cbf4be04e8b17d799681988b, type: 3}
+  trackPath: 020000000000000001000000
+  containerVolumeMultiplier: 1
+  defaultFadeOutDuration: 1
+  defaultFadeInDuration: 1
+  mode: 0
+  setVolumeOnEnter: 1
